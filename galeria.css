@@ -1,0 +1,67 @@
+.gallery {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prev-btn,
+.next-btn {
+  padding: 5px 10px;
+  margin: 0 10px;
+  background-color: #333;
+  color: #09fa3de5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #1114e6c0;
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+body {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6, #e74c3c, #f39c12, #2ecc71, #71b7e6);
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

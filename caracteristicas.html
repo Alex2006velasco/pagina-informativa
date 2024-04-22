@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIbal</title>
+<style>
+    /* Estilos generales */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #808000;
+    }
+
+    /* Estilos del encabezado */
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Estilos del contenedor principal */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Estilos de cada imagen */
+    .image-container {
+        width: calc(25% - 40px);
+        margin: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .image-container:hover .image {
+        transform: scale(1.1);
+    }
+
+    /* Estilos del texto sobre la imagen */
+    .image-text {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+    }
+
+    .image-container:hover .image-text {
+        opacity: 1;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1> Sibal</h1>
+    <p>Explora nuestras imágenes y encuentra información relevante.</p>
+</header>
+
+<div class="container">
+    <div class="image-container">
+        <img class="image" src="imagen1.jpg" alt="Imagen 1">
+        <div class="image-text">
+            <h2>Ocosingo</h2>
+            <p>Ocosingo,chiapas es un lugar muy bello de todo el estado de chiapas con muchas tradiciones, culturas y sobre todo muchos centros turisticos, asi como las laguna de 7 colores del ejido el sibal del munnicipio de Ocosingo, asi como las ruinas, el rio jatate y entre otros centros turisticos</p>
+        </div>
+    </div>
+    <div class="image-container">
+        <img class="image" src="parada.jpg" alt="Imagen 2">
+        <div class="image-text">
+            <h2>Sibal</h2>
+            <p>Para ir a sibal primeramente tenemos que llegar al mercado belisario domingues y deber ir hacia las salidas de las camionetias y preguntar para sibal y cobran alrededor de 150 por persona</p>
+        </div>
+    </div>
+   <div class="image-container">
+        <img class="image" src="rumbo.jpg" alt="Imagen 2">
+        <div class="image-text">
+            <h2>Sibal</h2>
+            <p>Para ir a sibal se tomara el desvio que nos lleva rumbo a la ruinas y seguir el camino de ocosingo a, aguadulce son una hora, uno puede bajar ir al baño o comprar algun refijerio yb seguir rumbo a montelibano otras 1 horas mas </p>
+        </div>  
+    </div>
+</div>
+    <div class="image-container">
+        <img class="image" src="crucerosibal.jpg" alt="Imagen 2">
+        <div class="image-text">
+            <h2>Sibal</h2>
+            <p>Despues de aver pasado montelibano encontraremos un cartel donde nos indica que sibal es para el otro lado asi como tambien uno se dara cuenta ya que en el mismo crucero esta la referencia</p>
+        </div>
+    </div>
+          <br>
+        
+  <link rel="stylesheet" href="caracteristicas.css">
+
+    <button class="comic-btn" > <a href="sibal.html">VOLVER</a></button>
+
+
+   
+</body>
+</html>
